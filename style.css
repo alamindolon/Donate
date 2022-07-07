@@ -12,6 +12,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    margin-bottom: 30px;
 }
 
 .link_button{
@@ -27,6 +28,7 @@ body{
     
    
     font-size: large;
+    padding-top: 150px;
    
 }
 .title_name p{
@@ -38,17 +40,20 @@ body{
 }
 .donate_today{
     text-align: center;
+    margin-top: 100px;
 }
+
 
 .edit-all{
     display: flex;
     justify-content: space-evenly;
-    border: 0px solid wheat;
+    border: 0px solid red;
     border-radius: 15px;
     background-color: white;
     margin: 0px 100px 100px 100px;
     height: 100px;
-    box-shadow: 10px 10px 10px 20px rgb(229, 211, 211);
+
+    
    
 }
 .edit-para{
@@ -56,9 +61,129 @@ body{
     font-size: 20px;
     
 }
+
 #two{
     border: 2px solid rgb(129, 56, 56);
     color: brown;
     background-color: rgb(204, 160, 160);
 
+}
+.input_amount{
+    text-align: center;
+}
+#work{
+    text-align: center;
+}
+.image{
+    width: 30%;
+    float: left;
+    padding: 1%;
+    margin-left: 5px;
+    border: 4px ;
+    background-color: antiquewhite;
+
+}
+#fram{
+    background-color:pink;
+}
+#family{
+    background-color: aquamarine;
+}
+.image img{
+    width: 40%;
+}
+
+.flexable_container{
+    display: flex;
+    padding-left: 5%;
+    padding: 50px;
+}
+.half-width{
+    width: 50%;
+    
+}
+.half-width img{
+    width: 70%;
+}
+
+.top_banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+#abutton{
+    margin-top: 20px;
+}
+
+
+
+.overlay form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 80px;
+    background-color: gray;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+}
+.overlay {
+    color: #f1f1f1;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+.text{
+    width: 180px;
+    height: 35px;
+    padding-left: 20px;
+    border-radius: 30px 0 0 30px;
+    border: 3px solid gray;
+    box-sizing: border-box;
+    color: #000;
+
+}
+.atext{
+    width: 280px;
+    height: 35px;
+    padding-left: 20px;
+    text-align: center;
+   
+    border: 0px solid gray;
+    box-sizing: border-box;
+    color: #000;
+    
+
+}
+.b{
+    margin-bottom: 20px;
+}
+button{
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    padding-left: 10px;
+    background-color: tomato;
+}
+
+.footer{
+   
+    background-color: black;
+    height: 200px;
+    padding-top: 3px;
+    text-align: center;
+    justify-content: center;
+}
+#fot_p{
+  
+   
+    color: white;
+}
+#net{
+     margin: 60px 0px 0px 0px;
+    color: tomato;
 }
